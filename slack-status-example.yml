@@ -1,0 +1,23 @@
+token: "REPLACE_ME"
+user: "REPLACE_ME"
+
+statuses:
+  coding:
+    emoji: ":terminal:"
+    text: "Writing Code"
+    dnd: 
+      enable: true
+      num_minutes: 60
+
+  doctor:
+    emoji: ":hospital:"
+    text: "Doctor's Visit"
+    dnd:
+      enable: false
+
+  pomodoro:
+    emoji: ":tomato:"
+    text: "Pomodoro"
+    dnd:
+      enable: true
+      num_minutes: 15
