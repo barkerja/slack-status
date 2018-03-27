@@ -1,8 +1,7 @@
 {
   "name": "slack-status",
-  "version": "1.0.0",
-  "main": "slack-status.js",
   "author": "John Barker <john@johnbarker.in>",
+  "repository": "git@github.com:barkerja/slack-status.git",
   "license": "MIT",
   "dependencies": {
     "@slack/client": "^4.1.0",
@@ -12,7 +11,7 @@
   "engines": {
     "node": ">=6.0"
   },
-  "private": false,
+  "private": true,
   "bin": {
     "slack-status": "./cli.js"
   }
