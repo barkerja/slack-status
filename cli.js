@@ -42,7 +42,6 @@ async function main() {
   }
   
   await slackStatus.updateStatus(status).then((resp) => {
-    console.log(resp)
     console.log('Set your Slack status to:', status.emoji, status.text)
   
     if (status.dnd.enable) {
